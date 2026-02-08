@@ -17,6 +17,7 @@
 ```text
 hubstack/
 ├── index.html          # Structure et logique JavaScript
+├── script.js           # Logique JavaScript
 ├── style-base.css      # Styles communs et layout
 ├── style-dark.css      # Variables de couleurs du thème sombre
 ├── style-light.css     # Variables de couleurs du thème clair
