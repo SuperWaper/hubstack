@@ -16,12 +16,10 @@
 
 ```text
 hubstack/
-├── index.html          # Structure et logique JavaScript
-├── script.js           # Logique JavaScript
-├── style-base.css      # Styles communs et layout
-├── style-dark.css      # Variables de couleurs du thème sombre
-├── style-light.css     # Variables de couleurs du thème clair
-└── assets/             # Images, favicons et l'icône de l'onglet
+├── index.html          # Structure
+├── script.js           # Logique JavaScript (Thèmes & Animations)
+├── style-base.css      # Styles, Layout & Variables de thèmes
+└── assets/             # Images, favicons et icônes
 ```
 
 ## 🚀 Installation & Utilisation
@@ -41,11 +39,10 @@ Le site est statique et peut être déployé en quelques secondes :
 
 ## 🛠️ Personnalisation avancée
 
-Pour créer un nouveau thème :
-1. Copiez `style-dark.css` ou `style-light.css`.
-2. Renommez-le (ex: `style-ocean.css`).
-3. Modifiez les variables CSS (`:root`).
-4. Mettez à jour la fonction `setTheme` dans `index.html`.
+Pour modifier les couleurs :
+1. Ouvrez `style-base.css`.
+2. Modifiez les variables dans `body.theme-dark` ou `body.theme-light`.
+3. Pour ajouter un nouveau thème, créez une nouvelle classe (ex: `body.theme-ocean`).
 
 ---
 *Fait avec ❤️ par Thomas Petaroscia.*
