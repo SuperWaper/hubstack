@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:user",
+      "destination": "/index.html"
+    }
+  ]
+}

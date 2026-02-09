@@ -1,0 +1,24 @@
+{
+  "username": "demo",
+  "name": "Demo User",
+  "bio": "Test account for HubStack multi-user support",
+  "leetName": "d3m0 u53r",
+  "avatar": "users/demo/assets/hb3.jpg",
+  "links": {
+    "github": {
+      "url": "https://github.com/SuperWaper/hubstack",
+      "title": "GitHub",
+      "badge": "Demo",
+      "primary": true
+    }
+  },
+  "sections": [
+    {
+      "title": "Welcome",
+      "items": [
+        { "name": "Dynamic Loading", "icon": "🚀" },
+        { "name": "Vercel Enabled", "url": "https://hubstack.vercel.app", "icon": "🌐" }
+      ]
+    }
+  ]
+}

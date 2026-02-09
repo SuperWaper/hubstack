@@ -1,0 +1,53 @@
+{
+  "username": "petaroscia",
+  "name": "Thomas Petaroscia",
+  "bio": "Dev @Full Stack Angular, TS, C#, NestJS",
+  "leetName": "7h0m45 p374205c14",
+  "avatar": "users/petaroscia/assets/profile.png",
+  "links": {
+    "github": {
+      "url": "https://github.com/SuperWaper",
+      "title": "GitHub",
+      "badge": "Follow",
+      "primary": true
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/thomas-p-b88a67b9/",
+      "title": "Thomas Petaroscia",
+      "subtitle": "linkedin.com"
+    }
+  },
+  "hobby": {
+    "image": "users/petaroscia/assets/climbing.webp",
+    "icon": "🧗",
+    "label": "Escalade"
+  },
+  "sections": [
+    {
+      "title": "Skills",
+      "items": [
+        { "name": "Angular", "url": "https://angular.dev/", "icon": "users/petaroscia/assets/angular.ico" },
+        { "name": "C#", "url": "https://dotnet.microsoft.com/fr-fr/languages/csharp", "icon": "users/petaroscia/assets/csharp.ico" },
+        { "name": "NestJS", "url": "https://nestjs.com/", "icon": "users/petaroscia/assets/nestjs.svg" },
+        { "name": "SQL / SQL Server / PostGre SQL / MySQL", "url": "https://sql.sh/", "icon": "users/petaroscia/assets/sql.ico" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org/", "icon": "users/petaroscia/assets/typescript.ico" },
+        { "name": "SCSS / HTML", "url": "https://sass-lang.com/", "icon": "users/petaroscia/assets/sass.ico" },
+        { "name": "Git", "url": "https://git-scm.com/", "icon": "users/petaroscia/assets/git.ico" },
+        { "name": "Azure DevOps", "url": "https://azure.microsoft.com/", "icon": "users/petaroscia/assets/azure.ico" }
+      ]
+    },
+    {
+      "title": "Methods",
+      "items": [
+        { "name": "Agile", "subtitle": "Scrum / Kanban", "type": "skill-card non-clickable", "icon": "📋" }
+      ]
+    },
+    {
+      "title": "In progress",
+      "items": [
+        { "name": "Java", "url": "https://www.java.com/fr/", "icon": "users/petaroscia/assets/java.ico", "learning": true },
+        { "name": "Python", "url": "https://www.python.org/", "icon": "users/petaroscia/assets/python.ico", "learning": true }
+      ]
+    }
+  ]
+}

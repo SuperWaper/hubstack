@@ -405,12 +405,24 @@ body {
     object-fit: contain;
 }
 
+.skill-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    position: relative;
+    z-index: 1;
+}
+
 .skill-name {
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.4;
-    position: relative;
-    z-index: 1;
+}
+
+.skill-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 400;
 }
 
 /* Footer */
