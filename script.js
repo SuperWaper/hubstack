@@ -76,7 +76,7 @@ function hydratePage(data) {
     nameEl.setAttribute('data-leet', data.leetName);
 
     document.getElementById('user-bio').textContent = data.bio;
-    document.getElementById('footer-text').textContent = `HubStack - With ❤️ by ${data.name}`;
+    document.getElementById('footer-text').innerHTML = `HubStack - With ❤️ by <a href="https://github.com/SuperWaper" style="all: unset; cursor: pointer;" target="_blank">Petaroscia Thomas</a>`;
 
     // Main Links (Grid)
     const linksGrid = document.getElementById('main-links');

@@ -8,16 +8,25 @@
     "github": {
       "url": "https://github.com/SuperWaper/hubstack",
       "title": "GitHub",
-      "badge": "Demo",
+      "badge": "HubStack Project Repo",
       "primary": true
     }
+  },
+  "hobby": {
+    "image": "users/demo/assets/hobby.jpg",
+    "icon": "💻​",
+    "label": "Code"
   },
   "sections": [
     {
       "title": "Welcome",
       "items": [
         { "name": "Dynamic Loading", "icon": "🚀" },
-        { "name": "Vercel Enabled", "url": "https://hubstack.vercel.app", "icon": "🌐" }
+        {
+          "name": "Vercel Enabled",
+          "url": "https://hubstack.vercel.app",
+          "icon": "🌐"
+        }
       ]
     }
   ]

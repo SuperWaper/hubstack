@@ -30,12 +30,13 @@ hubstack/
 
 ## 🚀 Comment ajouter un utilisateur ?
 
-1.  Créez un dossier dans `/users/` avec l'identifiant souhaité (ex: `marc`).
-2.  Copiez un fichier `user.json` existant dedans et personnalisez les données.
-3.  Ajoutez les images dans le sous-dossier `assets/`.
-4.  L'URL sera automatiquement disponible :
-    - **En Production (Vercel)** : `votre-site.vercel.app/marc` (grâce au fichier `vercel.json`).
-    - **En Local** : Utilisez le paramètre URL `index.html?user=marc`.
+1.  Via votre pull request (aprés fork du projet hubstack).
+2.  Créez un dossier dans `/users/` avec l'identifiant souhaité (ex: `marc`).
+3.  Copiez un fichier `user.json` existant dedans et personnalisez les données.
+4.  Ajoutez les images dans le sous-dossier `assets/`.
+5.  L'URL sera automatiquement disponible (après validation de votre PR) :
+    - **En Production (Vercel)** : `hubstack.vercel.app/marc` (grâce au fichier `vercel.json`).
+    - **En Local** : Utilisez le paramètre URL `?user=marc`.
     - L'URL sans paramètre (ex: `index.html`) affichera désormais le profil `demo` par défaut.
 
 > [!TIP]
@@ -76,9 +77,11 @@ L'un des grands avantages de **HubStack** est l'automatisation totale une fois r
 ## 🛠️ Personnalisation avancée
 
 Pour modifier les couleurs :
+
 1. Ouvrez `style-base.css`.
 2. Modifiez les variables dans `body.theme-dark` ou `body.theme-light`.
 3. Pour ajouter un nouveau thème, créez une nouvelle classe (ex: `body.theme-ocean`).
 
 ---
-*Fait avec ❤️ par Thomas Petaroscia.*
+
+_Fait avec ❤️ par Thomas Petaroscia._
